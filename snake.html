@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake</title>
+
+    <style>
+        #id-snake {
+            width: 340px;
+            height: 340px;
+            background-image: url('./bg.png');
+            background-size: contain;
+            margin: 150px auto;
+            position: relative;
+        }
+        
+        #id-gua-square {
+            position: absolute;
+            top: 25px;
+            left: 20px;
+        }
+        
+        .gua-line {
+            font-size: 0;
+        }
+        
+        .gua-num {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+        
+        .show {
+            background-color: #6E8B03
+        }
+        
+        .food {
+            background-image: url('./apple.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id-snake">
+        <div id="id-gua-square">
+
+        </div>
+    </div>
+
+    <script src="tool.js "></script>
+
+    <script src="snake.js"></script>
+
+</body>
+
+</html>
